@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+ul {
+  list-style: none;
+}
+
+.btn {
+  padding: 0 20px;
+  height: 40px;
+  font-size: 2em;
+  border: none;
+  border-radius: 5px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.btn:hover {
+  font-size: 2.2em;
+  font-weight: 2rem;
+}
+
+.nav-list {
+  display: flex;
+  margin-right: 2.1rem;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-list a {
+  display: block;
+  font-size: 2.1rem;
+  padding: 2.1rem;
+}
+
+.nav-list a:hover {
+  background-color: #C0C0C0; 
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #1A1A1A;
+  z-index: 999;
+}
+
+@media (max-width: 50em) {
+  .nav {
+    justify-content: center;
+  }
+}
+
+.welcome-section h1 {
+  text-align: center;
+}
+
+.welcome-section {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(
+    #1A1A1A 0%,
+    #191970 15%
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+h1, h2 {
+  color: #32CD32;
+  font-family: Raleway, sans-serif;
+  font-weight: 750;
+  text-align: center;
+}
+
+h1 {
+  font-size: 10rem;
+}
+
+h2 {
+  font-size: 4rem;
+}
+
+.projects-section {
+  background-color: #181869;
+  padding: 5rem 2rem;
+}
+
+.projects-section-header {
+  max-width: 400px;
+  margin: 0 auto 6rem auto;
+  border-bottom: 0.2rem solid white;
+}
+
+.projects-grid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-row {
+  padding: 2rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+  background-color: #0047ab;
+  border-radius: 3.5rem;
+}
+
+.text-container {
+  color: white;
+  font-size: 2rem;
+  margin-right: 2rem;
+  max-width: 50%;
+}
+
+.text-container p {
+  max-width: 80%;
+  text-align: justify;
+  margin: 0 auto;
+}
+
+.image-container {
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+}
+
+.text-container h2 {
+  color: white;
+}
+
+.contact-section {
+  background-color: #181869;
+  color: white;
+  text-align: center;
+}
+
+
+
+.contact-grid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 5rem;
+}
+
+.contacts {
+  margin-right: 3.1rem; 
+}
+
+footer {
+  font-weight: 300;
+  font-size: 2rem;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2rem;
+  background: #191970;
+  color: white;
+  border-top: 4px solid var(--main-red);
+}
+
